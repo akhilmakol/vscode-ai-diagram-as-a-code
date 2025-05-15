@@ -1,8 +1,12 @@
-# Diagram Automation Template Prompts
+# 🤖 Diagram Automation Template Prompts
+
+> *A collection of reusable prompts for automating diagram creation and manipulation*
+
+---
 
 This file contains reusable prompts for automating common diagram tasks in VS Code. Copy these prompts and add them to your VS Code Reusable Prompts collection.
 
-## Generate Diagram from Code
+## 💻 Generate Diagram from Code
 
 ```
 Analyze the code I've selected and generate an appropriate Mermaid diagram that

@@ -1,4 +1,8 @@
-# Class Diagram Template Prompts
+# 📋 Class Diagram Template Prompts
+
+> *A collection of reusable prompts for creating class diagrams in Mermaid syntax*
+
+---
 
 This file contains reusable prompts for creating class diagrams in Mermaid syntax. Copy these prompts and add them to your VS Code Reusable Prompts collection.
 

@@ -1,8 +1,12 @@
-# Flowchart Diagram Template Prompts
+# 📊 Flowchart Diagram Template Prompts
+
+> *A collection of reusable prompts for creating flowchart diagrams in Mermaid syntax*
+
+---
 
 This file contains reusable prompts for creating flowchart diagrams in Mermaid syntax. Copy these prompts and add them to your VS Code Reusable Prompts collection.
 
-## Basic Process Flowchart
+## 🔄 Basic Process Flowchart
 
 ```
 Create a Mermaid flowchart diagram for the following process: [describe your process]. 
@@ -15,7 +19,7 @@ Apply this styling:
 - Start/End points: fill:#d4edda,stroke:#28a745
 ```
 
-## System Workflow Flowchart
+## 🔄 System Workflow Flowchart
 
 ```
 Generate a Mermaid flowchart showing the workflow between these system components: 
@@ -24,7 +28,7 @@ to [exit point]. Include error handling paths and use subgraphs to group related
 components. Use LR (left-right) orientation for better readability.
 ```
 
-## Decision Tree Flowchart
+## 🔍 Decision Tree Flowchart
 
 ```
 Create a Mermaid decision tree flowchart for [scenario]. 
@@ -33,7 +37,7 @@ For each decision, show the possible outcomes and resulting paths.
 Use diamonds for decisions and rectangles for outcomes or states.
 ```
 
-## Application Navigation Flowchart
+## 🧭 Application Navigation Flowchart
 
 ```
 Generate a Mermaid flowchart showing the navigation flow of [application name].
@@ -42,7 +46,7 @@ Start at the [entry page/screen] and show paths to all major screens/pages inclu
 where users can navigate back and forth. Group screens by functional area using subgraphs.
 ```
 
-## Data Processing Pipeline Flowchart
+## 📊 Data Processing Pipeline Flowchart
 
 ```
 Create a Mermaid flowchart diagram of a data processing pipeline with these stages:
@@ -53,7 +57,7 @@ any validation or error handling steps. Use different node shapes to represent:
 - Validation/decisions (diamonds)
 ```
 
-## State Transition Flowchart
+## 🔄 State Transition Flowchart
 
 ```
 Generate a Mermaid flowchart showing the state transitions for [object/system].
@@ -64,7 +68,7 @@ transitions between states. Use different colors to indicate:
 - Terminal states
 ```
 
-## Customer Journey Flowchart
+## 👥 Customer Journey Flowchart
 
 ```
 Create a Mermaid flowchart showing a customer journey for [product/service].
@@ -76,7 +80,7 @@ Start with [entry point] and follow through to [end goal]. Include:
 Use subgraphs to organize the journey into phases.
 ```
 
-## Conditional Flowchart
+## 🔀 Conditional Flowchart
 
 ```
 Generate a Mermaid flowchart with multiple conditional paths for [process name].
@@ -86,7 +90,7 @@ where they merge back to the main flow, if applicable. Include annotations
 explaining complex decision logic.
 ```
 
-## Multi-Layer Process Flowchart
+## 📚 Multi-Layer Process Flowchart
 
 ```
 Create a Mermaid flowchart showing [process name] with clear separation between
@@ -95,7 +99,7 @@ Show how control and data flow between components in different layers.
 Use subgraphs to represent each layer and maintain a consistent flow direction.
 ```
 
-## Error Handling Flowchart
+## ⚠️ Error Handling Flowchart
 
 ```
 Generate a Mermaid flowchart focusing on error handling for [system/process].
@@ -107,10 +111,9 @@ Start with the normal flow path, then show:
 Use different colors to distinguish normal flow from error handling paths.
 ```
 
-## Navigation
+---
 
+## 🧭 Navigation
+
+- [🏠 Back to Prompt Templates](README.md)
 - [🏠 Back to Main Page](../README.md)
-- **Related Documents:**
-  - [Prompt Templates Home](README.md)
-  - [Flowchart Example](../flowchart_example.md)
-  - [AI Diagram Generation Guide](../ai_diagram_generation_guide.md)

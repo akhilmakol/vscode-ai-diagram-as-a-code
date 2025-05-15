@@ -1,22 +1,33 @@
-# Importing and Managing Reusable Prompts in VS Code
+# 📚 Importing and Managing Reusable Prompts in VS Code
+
+> *A comprehensive guide for using template prompts with VS Code's reusable prompts feature*
+
+---
 
 This guide explains how to use the template prompts provided in this repository with VS Code 1.100+'s reusable prompts feature.
 
-## Overview of Prompt Templates
+## 🗂️ Overview of Prompt Templates
 
 This repository includes the following prompt template collections:
 
-- [Flowchart Diagram Prompts](flowchart_prompts.md)
-- [Sequence Diagram Prompts](sequence_diagram_prompts.md)
-- [Class Diagram Prompts](class_diagram_prompts.md)
-- [Architecture Diagram Prompts](architecture_diagram_prompts.md)
-- [Diagram Automation Prompts](automation_prompts.md)
+- 📊 [Flowchart Diagram Prompts](flowchart_prompts.md)
+- 🔄 [Sequence Diagram Prompts](sequence_diagram_prompts.md)
+- 📋 [Class Diagram Prompts](class_diagram_prompts.md)
+- 🏗️ [Architecture Diagram Prompts](architecture_diagram_prompts.md)
+- 🤖 [Diagram Automation Prompts](automation_prompts.md)
+- 📊 [Entity-Relationship Diagram Prompts](entity_relationship_prompts.md)
+- 🔄 [State Diagram Prompts](state_diagram_prompts.md)
+- 📅 [Gantt Chart Prompts](gantt_chart_prompts.md)
+- 🧠 [Mind Map Prompts](mind_map_prompts.md)
+- 📊 [Data Visualization Prompts](data_visualization_prompts.md)
+- 🔄 [Diagram Enhancement Prompts](diagram_enhancement_prompts.md)
+- ⚙️ [Custom Instructions Templates](custom_instructions_templates.md)
 
 Each file contains multiple template prompts designed for specific diagram types or automation tasks.
 
-## How to Use These Template Prompts
+## 🛠️ How to Use These Template Prompts
 
-### Adding Prompts Manually
+### 📝 Adding Prompts Manually
 
 1. Open VS Code 1.100+
 2. Open the Chat view (View > Command Palette > "Chat: Focus on Chat View")
@@ -27,7 +38,7 @@ Each file contains multiple template prompts designed for specific diagram types
 7. Replace any placeholder text (typically in [square brackets]) with your specific details
 8. Click "Create" to save the prompt
 
-### Example: Adding a Flowchart Prompt
+### 🔍 Example: Adding a Flowchart Prompt
 
 1. Open [flowchart_prompts.md](flowchart_prompts.md)
 2. Find the "Basic Process Flowchart" template
@@ -37,7 +48,7 @@ Each file contains multiple template prompts designed for specific diagram types
 6. Replace placeholders like `[describe your process]` with specific content
 7. Save the prompt
 
-### Bulk Import (Advanced)
+### 📦 Bulk Import (Advanced)
 
 For advanced users who want to import multiple prompts at once:
 
@@ -60,7 +71,7 @@ Example settings.json entry:
 ]
 ```
 
-## Organizing Your Prompts
+## 📋 Organizing Your Prompts
 
 As your collection of prompts grows, consider organizing them with consistent naming patterns:
 
@@ -68,7 +79,7 @@ As your collection of prompts grows, consider organizing them with consistent na
 - Add suffixes to indicate complexity: "Class Diagram (Basic)", "Class Diagram (Advanced)"
 - Include the diagram type in the prompt name for easy filtering
 
-## Customizing Prompts
+## ✨ Customizing Prompts
 
 These templates are starting points. For best results:
 
@@ -77,7 +88,7 @@ These templates are starting points. For best results:
 3. Reference your actual systems, processes, or code structures
 4. Include any specific conventions your team follows
 
-## Sharing Prompts with Your Team
+## 👥 Sharing Prompts with Your Team
 
 To share prompts with team members:
 
@@ -86,7 +97,7 @@ To share prompts with team members:
 3. Add the prompt templates to your project's documentation repository
 4. Create a team-specific prompt library file
 
-## Best Practices for Using Prompt Templates
+## 💡 Best Practices for Using Prompt Templates
 
 1. **Start general, then refine**: Begin with a template, then add specific details
 2. **Keep prompts focused**: Create separate prompts for different aspects rather than one massive prompt
@@ -94,7 +105,7 @@ To share prompts with team members:
 4. **Document your prompts**: Add comments about when and how to use each prompt
 5. **Combine with custom instructions**: For best results, set up custom instructions that work well with your prompts
 
-## Advanced: Creating Prompt Chains
+## 🔗 Advanced: Creating Prompt Chains
 
 For complex diagramming tasks, consider creating a series of prompts that work together:
 
@@ -103,7 +114,7 @@ For complex diagramming tasks, consider creating a series of prompts that work t
 3. Third prompt: Add detailed annotations or documentation
 4. Fourth prompt: Export or integrate with documentation
 
-## Troubleshooting
+## ❓ Troubleshooting
 
 If you encounter issues with prompts:
 
@@ -112,10 +123,11 @@ If you encounter issues with prompts:
 3. **Inconsistent results**: Add more specific guidance and examples
 4. **VS Code version issues**: Ensure you're using VS Code 1.100+
 
-## Navigation
+---
+
+## 🧭 Navigation
 
 - [🏠 Back to Main Page](../README.md)
 - **Related Documents:**
   - [AI Diagram Generation Guide](../ai_diagram_generation_guide.md)
   - [Custom Instructions Guide](../custom_instructions_guide.md)
-  - [Workflow Example](../workflow_example.md)
