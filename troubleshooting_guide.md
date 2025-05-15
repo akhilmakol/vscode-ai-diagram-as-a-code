@@ -15,8 +15,9 @@ flowchart TD
     class A end
 ```
 
-**Error Message:** 
-```
+**Error Message:**
+
+```text
 Syntax error in text: Parse error... Expecting 'AMP', 'COLON'... got 'end'
 ```
 
@@ -34,6 +35,7 @@ flowchart TD
 **Issue:** Using incorrect flow direction specifiers.
 
 **Error:**
+
 ```mermaid
 flowchart ABC
     A --> B
@@ -64,27 +66,30 @@ flowchart TD
     end
 ```
 
-### 4. Missing Relationship Definitions
+### 4. Missing Entity Attributes
 
-**Issue:** Nodes referenced in relationships must be defined.
+**Issue:** Entity-Relationship diagrams are more informative with proper attribute definitions.
 
-**Error:**
+**Basic Diagram:**
+
 ```mermaid
 erDiagram
     USER ||--o{ ORDER : places
 ```
 
-**Solution:** Ensure all entities in a relationship are properly defined:
+**Solution:** Add meaningful attributes to each entity for better documentation:
 
 ```mermaid
 erDiagram
     USER {
         int id
         string name
+        string email
     }
     ORDER {
         int id
         date created
+        float total
     }
     USER ||--o{ ORDER : places
 ```
@@ -94,6 +99,7 @@ erDiagram
 **Issue:** Improper subgraph syntax causes rendering failures.
 
 **Error:**
+
 ```mermaid
 flowchart TD
     subgraph "My Group"
@@ -116,6 +122,7 @@ flowchart TD
 **Issue:** Mermaid diagram preview doesn't update when you edit the code.
 
 **Solutions:**
+
 - Save the file before previewing (Ctrl+S/Cmd+S)
 - Toggle the preview closed and reopen it
 - Ensure the Mermaid extension is up-to-date
@@ -126,6 +133,7 @@ flowchart TD
 **Issue:** Unable to export diagrams or poor quality exports.
 
 **Solutions:**
+
 - Try the "Copy as PNG" option from the Mermaid Preview panel
 - Install the "Markdown PDF" extension for PDF exports
 - Use the browser-based Mermaid Live Editor for higher quality exports
@@ -136,6 +144,7 @@ flowchart TD
 **Issue:** Multiple Mermaid extensions causing conflicts.
 
 **Solution:** Disable all but one Mermaid extension. Recommended priority:
+
 1. Markdown Preview Mermaid Support
 2. Mermaid Preview
 3. Markdown Preview Enhanced (if you need other features)
