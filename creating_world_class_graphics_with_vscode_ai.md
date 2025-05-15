@@ -273,11 +273,11 @@ graph TD
     
     classDef start fill:#6fd66f,stroke:#009900;
     classDef process fill:#99ccff,stroke:#3366ff;
-    classDef end fill:#ffcc99,stroke:#ff9933;
+    classDef endNode fill:#ffcc99,stroke:#ff9933;
     
     class A start;
     class B1,B2,B3,E,F,F1,F2,F3 process;
-    class J end;
+    class J endNode;
 ```
 
 ## 🛠️ Practical Workflow: Creating Graphics with VS Code and AI
