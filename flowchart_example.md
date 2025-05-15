@@ -1,3 +1,9 @@
+# 🔄 Flowchart Example: VS Code Diagram Workflow
+
+This example demonstrates a basic flowchart created using Mermaid syntax, showing the workflow for creating diagrams in VS Code.
+
+## 📊 Diagram
+
 ```mermaid
 flowchart TD
     A[Start Using VS Code] -->|Install Extensions| B{Choose Visualization Type}

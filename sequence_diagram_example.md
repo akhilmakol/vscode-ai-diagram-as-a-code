@@ -1,3 +1,9 @@
+# ⏱️ Sequence Diagram Example: AI-Assisted Diagram Creation
+
+This example demonstrates a sequence diagram created using Mermaid syntax, showing the interaction between a user, VS Code, and AI components during the diagram creation process.
+
+## 📊 Diagram
+
 ```mermaid
 sequenceDiagram
     participant User

@@ -1,14 +1,14 @@
-# Practical Mermaid Guide for VS Code Users
+# 📊 Practical Mermaid Guide for VS Code Users
 
 This guide provides practical, hands-on instructions for using Mermaid diagrams effectively in Visual Studio Code, with a focus on the workflow and features available in VS Code 1.100+.
 
-## Getting Started with Mermaid in VS Code
+## 🚀 Getting Started with Mermaid in VS Code
 
-### Setup and Installation
+### 🔧 Setup and Installation
 
 1. **Basic Setup**:
-   - VS Code has built-in support for Mermaid preview in Markdown files
-   - Create a new markdown file (.md) to get started
+   - ✅ VS Code has built-in support for Mermaid preview in Markdown files
+   - 📄 Create a new markdown file (.md) to get started
 
 2. **Enhanced Experience**:
    - Install the "Markdown Preview Mermaid Support" extension for improved previewing

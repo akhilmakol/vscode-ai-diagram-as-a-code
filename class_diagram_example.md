@@ -1,3 +1,9 @@
+# 🧩 Class Diagram Example: Graphics Engine Architecture
+
+This example demonstrates a UML class diagram created using Mermaid syntax, showing the architecture of a graphics rendering system.
+
+## 📊 Diagram
+
 ```mermaid
 classDiagram
     class GraphicsEngine {

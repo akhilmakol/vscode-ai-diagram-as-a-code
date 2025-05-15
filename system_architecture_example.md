@@ -1,3 +1,9 @@
+# 🏗️ System Architecture Example: Microservices Application
+
+This example demonstrates a system architecture diagram created using Mermaid flowchart syntax, showing the components and layers of a modern microservices-based application.
+
+## 📊 Diagram
+
 ```mermaid
 flowchart TB
     subgraph Client Layer

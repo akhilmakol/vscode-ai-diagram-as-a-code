@@ -1,8 +1,8 @@
-# Advanced AI Prompting Techniques for Diagram Creation
+# 🤖 Advanced AI Prompting Techniques for Diagram Creation
 
 This guide provides advanced techniques for crafting effective prompts when using AI assistants to generate and modify diagrams in VS Code 1.100+.
 
-## Understanding AI Diagram Generation
+## 🧠 Understanding AI Diagram Generation
 
 When using AI to generate diagrams, the quality of your prompts directly affects the quality of the results. Effective prompting is both an art and a science.
 

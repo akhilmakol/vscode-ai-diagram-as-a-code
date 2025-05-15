@@ -1,8 +1,8 @@
-# Using AI to Generate Diagrams in VS Code
+# 🤖 Using AI to Generate Diagrams in VS Code
 
 This guide demonstrates how to use AI tools like GitHub Copilot to generate diagrams directly in VS Code.
 
-## Example: Using GitHub Copilot to Generate a Mermaid Diagram
+## 📊 Example: Using GitHub Copilot to Generate a Mermaid Diagram
 
 GitHub Copilot can help you create diagrams by generating the diagram code based on your descriptions. Here's how to do it:
 

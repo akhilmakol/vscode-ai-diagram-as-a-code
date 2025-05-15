@@ -1,12 +1,12 @@
-# Setting Up VS Code for Optimal Diagram Creation
+# ⚙️ Setting Up VS Code for Optimal Diagram Creation
 
 This guide covers how to configure Visual Studio Code for the best possible diagram creation experience, including recommended extensions, settings, and workspace organization.
 
-## Essential Extensions
+## 🧩 Essential Extensions
 
 Install these essential VS Code extensions to enhance your diagramming capabilities:
 
-### 1. Mermaid Tools
+### 1. 📊 Mermaid Tools
 
 - **[Markdown Preview Mermaid Support](https://marketplace.visualstudio.com/items?itemName=bierner.markdown-mermaid)**
   - Adds Mermaid diagram support to VS Code's built-in Markdown preview
@@ -17,7 +17,7 @@ Install these essential VS Code extensions to enhance your diagramming capabilit
 - **[Mermaid Editor](https://marketplace.visualstudio.com/items?itemName=tomoyukim.vscode-mermaid-editor)**
   - Interactive editor for creating and editing Mermaid diagrams
 
-### 2. Diagram Editors
+### 2. 🎨 Diagram Editors
 
 - **[Draw.io Integration](https://marketplace.visualstudio.com/items?itemName=hediet.vscode-drawio)**
   - Integrates the full Draw.io diagram editor directly into VS Code
