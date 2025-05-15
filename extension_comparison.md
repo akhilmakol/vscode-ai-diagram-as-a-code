@@ -30,7 +30,6 @@
 
 ## 📊 Visual Comparison
 
-![Extension Feature Comparison](https://via.placeholder.com/800x400?text=Extension+Feature+Comparison+Chart)
 
 ## 🤔 Key Considerations When Choosing an Extension
 
