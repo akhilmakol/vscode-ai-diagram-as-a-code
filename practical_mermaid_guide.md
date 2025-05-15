@@ -345,3 +345,11 @@ flowchart LR
   - More examples available in other files in this project
 
 By following this guide, you'll be able to create, maintain, and collaborate on Mermaid diagrams efficiently within VS Code, leveraging the latest AI features in VS Code 1.100+ to streamline your diagramming workflow.
+
+## Navigation
+
+- [🏠 Back to Main Page](README.md)
+- **Related Documents:**
+  - [Troubleshooting Guide](troubleshooting_guide.md)
+  - [Advanced Diagram Examples](advanced_diagram_examples.md)
+  - [Diagram FAQ](diagram_faq.md)

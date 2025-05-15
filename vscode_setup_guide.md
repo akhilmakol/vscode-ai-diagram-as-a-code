@@ -304,3 +304,11 @@ module.exports = {
 ## Conclusion
 
 With these configurations, your VS Code environment will be optimized for creating, editing, and managing diagrams. This setup ensures consistency across your documentation and makes it easier to maintain diagrams as your project evolves.
+
+## Navigation
+
+- [🏠 Back to Main Page](README.md)
+- **Related Documents:**
+  - [Implementation Guide](implementation_guide.md)
+  - [Extension Comparison](extension_comparison.md)
+  - [AI Diagram Generation Guide](ai_diagram_generation_guide.md)

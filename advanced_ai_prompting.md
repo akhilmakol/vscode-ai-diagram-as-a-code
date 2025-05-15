@@ -433,3 +433,15 @@ Explain what happens when:
 Mastering AI prompting techniques for diagram creation allows you to leverage VS Code 1.100+ capabilities to their fullest. By combining structured requests, iterative refinement, and domain-specific knowledge, you can create high-quality diagrams that effectively communicate complex systems and processes.
 
 Remember that the best results come from a collaborative process with the AI, where you provide clear guidance and iteratively refine the output until it meets your needs.
+
+## Navigation
+
+- [🏠 Back to Main Page](README.md)
+- **Related Documents:**
+  ## Navigation
+
+- [🏠 Back to Main Page](README.md)
+- **Related Documents:**
+  - [AI Diagram Generation Guide](ai_diagram_generation_guide.md)
+  - [Custom Instructions Guide](custom_instructions_guide.md)
+  - [Workflow Example](workflow_example.md)

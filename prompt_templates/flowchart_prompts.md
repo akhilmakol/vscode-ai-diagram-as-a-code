@@ -106,3 +106,11 @@ Start with the normal flow path, then show:
 - User notifications
 Use different colors to distinguish normal flow from error handling paths.
 ```
+
+## Navigation
+
+- [🏠 Back to Main Page](../README.md)
+- **Related Documents:**
+  - [Prompt Templates Home](README.md)
+  - [Flowchart Example](../flowchart_example.md)
+  - [AI Diagram Generation Guide](../ai_diagram_generation_guide.md)

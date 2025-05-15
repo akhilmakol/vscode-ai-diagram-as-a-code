@@ -104,3 +104,11 @@ Show the complete sequence from system trigger through component initialization,
 configuration loading, connection establishment, and readiness signaling.
 Use activation boxes to show initialization time for each component.
 ```
+
+## Navigation
+
+- [🏠 Back to Main Page](../README.md)
+- **Related Documents:**
+  - [Prompt Templates Home](README.md)
+  - [Sequence Diagram Example](../sequence_diagram_example.md)
+  - [AI Diagram Generation Guide](../ai_diagram_generation_guide.md)

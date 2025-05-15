@@ -165,3 +165,11 @@ After generating a basic diagram, you can ask the AI to enhance it:
 ```
 
 This iterative approach allows you to gradually build more sophisticated and informative diagrams.
+
+## Navigation
+
+- [🏠 Back to Main Page](README.md)
+- **Related Documents:**
+  - [Advanced AI Prompting](advanced_ai_prompting.md)
+  - [Custom Instructions Guide](custom_instructions_guide.md)
+  - [Workflow Example](workflow_example.md)

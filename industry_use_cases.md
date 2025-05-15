@@ -279,3 +279,11 @@ When setting up custom instructions for your industry:
 5. **Set quality standards**: Define what makes a diagram useful in your specific domain
 
 By combining domain-specific custom instructions with targeted reusable prompts, you can quickly generate diagrams that follow industry best practices and effectively communicate complex systems to domain experts.
+
+## Navigation
+
+- [🏠 Back to Main Page](README.md)
+- **Related Documents:**
+  - [Case Study](case_study.md)
+  - [Workflow Integration](workflow_integration.md)
+  - [Advanced AI Prompting](advanced_ai_prompting.md)

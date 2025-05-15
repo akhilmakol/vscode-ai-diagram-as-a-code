@@ -135,3 +135,11 @@ Include:
 Show the flow from code commit through testing, building, deployment, and operation.
 Use subgraphs to organize different pipeline stages.
 ```
+
+## Navigation
+
+- [🏠 Back to Main Page](../README.md)
+- **Related Documents:**
+  - [Prompt Templates Home](README.md)
+  - [System Architecture Example](../system_architecture_example.md)
+  - [Workflow Integration](../workflow_integration.md)

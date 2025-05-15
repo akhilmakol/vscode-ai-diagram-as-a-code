@@ -97,3 +97,11 @@ The true power comes from combining these features:
 5. Export the final diagram for documentation
 
 By leveraging VS Code 1.100+'s custom instructions and reusable prompts, you can significantly reduce the time spent creating and maintaining diagrams while ensuring consistency and quality across all your visualizations.
+
+## Navigation
+
+- [🏠 Back to Main Page](README.md)
+- **Related Documents:**
+  - [Advanced AI Prompting](advanced_ai_prompting.md)
+  - [Workflow Example](workflow_example.md)
+  - [AI Diagram Generation Guide](ai_diagram_generation_guide.md)

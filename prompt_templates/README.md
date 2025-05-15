@@ -111,3 +111,11 @@ If you encounter issues with prompts:
 2. **Prompt too complex**: Break it down into smaller, focused prompts
 3. **Inconsistent results**: Add more specific guidance and examples
 4. **VS Code version issues**: Ensure you're using VS Code 1.100+
+
+## Navigation
+
+- [🏠 Back to Main Page](../README.md)
+- **Related Documents:**
+  - [AI Diagram Generation Guide](../ai_diagram_generation_guide.md)
+  - [Custom Instructions Guide](../custom_instructions_guide.md)
+  - [Workflow Example](../workflow_example.md)

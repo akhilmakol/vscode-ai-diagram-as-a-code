@@ -23,3 +23,11 @@ sequenceDiagram
     
     note over User,VSCode: The entire process happens within VS Code
 ```
+
+## Navigation
+
+- [🏠 Back to Main Page](README.md)
+- **Related Documents:**
+  - [Flowchart Example](flowchart_example.md)
+  - [Implementation Guide](implementation_guide.md)
+  - [Practical Mermaid Guide](practical_mermaid_guide.md)

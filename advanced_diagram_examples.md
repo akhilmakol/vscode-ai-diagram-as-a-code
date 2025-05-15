@@ -334,3 +334,11 @@ Complex documentation often requires combining different diagram types to fully 
 4. Include entity-relationship diagrams to document data model
 
 By using code-based diagrams in VS Code, you can keep all these diagrams in sync and evolve them alongside your code.
+
+## Navigation
+
+- [🏠 Back to Main Page](README.md)
+- **Related Documents:**
+  - [Class Diagram Example](class_diagram_example.md)
+  - [System Architecture Example](system_architecture_example.md)
+  - [Practical Mermaid Guide](practical_mermaid_guide.md)

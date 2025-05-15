@@ -139,3 +139,11 @@ By embracing this integrated approach to graphics creation, technical profession
 5. Join communities like VS Code's Discord or GitHub discussions to share techniques and learn from others
 
 The tools and techniques covered in this article aren't just about creating prettier diagrams—they're about fundamentally improving how we communicate technical concepts in an increasingly complex digital world.
+
+## Navigation
+
+- [🏠 Back to Main Page](README.md)
+- **Related Documents:**
+  - [Implementation Guide](implementation_guide.md)
+  - [VS Code Setup Guide](vscode_setup_guide.md)
+  - [Diagram Best Practices](diagram_best_practices.md)

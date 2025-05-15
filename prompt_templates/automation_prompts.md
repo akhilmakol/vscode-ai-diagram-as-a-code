@@ -153,3 +153,11 @@ Create these additional perspectives:
 Each view should maintain consistency with the original diagram but emphasize
 different aspects of the system.
 ```
+
+## Navigation
+
+- [🏠 Back to Main Page](../README.md)
+- **Related Documents:**
+  - [Prompt Templates Home](README.md)
+  - [AI Diagram Generation Guide](../ai_diagram_generation_guide.md)
+  - [Workflow Integration](../workflow_integration.md)

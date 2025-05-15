@@ -25,3 +25,11 @@ flowchart TD
     style J fill:#FF9800,stroke:#E65100,color:white
     style K fill:#9C27B0,stroke:#4A148C,color:white
 ```
+
+## Navigation
+
+- [🏠 Back to Main Page](README.md)
+- **Related Documents:**
+  - [Sequence Diagram Example](sequence_diagram_example.md)
+  - [Implementation Guide](implementation_guide.md)
+  - [Practical Mermaid Guide](practical_mermaid_guide.md)

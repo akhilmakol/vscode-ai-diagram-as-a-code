@@ -82,3 +82,11 @@ Once your diagram is complete, you can:
 - [PlantUML Documentation](https://plantuml.com/)
 - [Draw.io Documentation](https://www.diagrams.net/doc/)
 - [VS Code Extensions Marketplace](https://marketplace.visualstudio.com/)
+
+## Navigation
+
+- [🏠 Back to Main Page](README.md)
+- **Related Documents:**
+  - [VS Code Setup Guide](vscode_setup_guide.md)
+  - [Diagram Best Practices](diagram_best_practices.md)
+  - [AI Diagram Generation Guide](ai_diagram_generation_guide.md)

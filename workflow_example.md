@@ -174,3 +174,11 @@ Using VS Code 1.100+'s custom instructions and reusable prompts together provide
 5. **Combine with manual editing**: For complex diagrams, use AI to create the foundation, then manually refine details
 6. **Use version control**: Store diagram code in your repository
 7. **Share your prompt library**: Help your team maintain consistent diagrams
+
+## Navigation
+
+- [🏠 Back to Main Page](README.md)
+- **Related Documents:**
+  - [Custom Instructions Guide](custom_instructions_guide.md)
+  - [Advanced AI Prompting](advanced_ai_prompting.md)
+  - [Practical Mermaid Guide](practical_mermaid_guide.md)

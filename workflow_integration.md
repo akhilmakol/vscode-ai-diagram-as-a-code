@@ -332,3 +332,11 @@ jobs:
 8. **Integrate with existing tools**: Connect diagram automation with your existing documentation and development tools
 
 By integrating diagram automation into your development workflows using VS Code 1.100+'s custom instructions and reusable prompts, you can maintain accurate, up-to-date visual documentation of your system with minimal manual effort.
+
+## Navigation
+
+- [🏠 Back to Main Page](README.md)
+- **Related Documents:**
+  - [Workflow Example](workflow_example.md)
+  - [Diagram Validation Guide](diagram_validation_guide.md)
+  - [CI/CD Integration](diagram_validation_guide.md#cicd-integration)

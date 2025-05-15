@@ -36,3 +36,11 @@ As AI continues to evolve, we can expect:
 - Automatic conversion between different diagram types
 - AI that can suggest improvements to diagram clarity and aesthetics
 - Code-to-diagram and diagram-to-code bidirectional transformations
+
+## Navigation
+
+- [🏠 Back to Main Page](README.md)
+- **Related Documents:**
+  - [VS Code Setup Guide](vscode_setup_guide.md)
+  - [Implementation Guide](implementation_guide.md)
+  - [Practical Mermaid Guide](practical_mermaid_guide.md)

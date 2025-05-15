@@ -150,3 +150,11 @@ sequenceDiagram
 By adopting VS Code and AI-powered diagramming tools, TechSolutions Inc. transformed their technical documentation process. The company was able to democratize diagram creation, ensure consistency, improve version control, and significantly reduce the time and effort required to create and maintain technical diagrams.
 
 The integration of AI assistance through GitHub Copilot proved particularly valuable for team members who were less experienced in creating diagrams, allowing them to contribute effectively to the documentation process.
+
+## Navigation
+
+- [🏠 Back to Main Page](README.md)
+- **Related Documents:**
+  - [Implementation Guide](implementation_guide.md)
+  - [Workflow Example](workflow_example.md)
+  - [Industry Use Cases](industry_use_cases.md)

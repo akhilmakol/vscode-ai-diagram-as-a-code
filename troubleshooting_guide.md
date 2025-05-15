@@ -193,3 +193,11 @@ Use VS Code's built-in Markdown Preview for basic validation:
 4. **Request explanations:** Ask the AI to explain why a correction works, to learn for next time.
 
 By following these troubleshooting steps, you can resolve most common issues with Mermaid diagrams in VS Code.
+
+## Navigation
+
+- [🏠 Back to Main Page](README.md)
+- **Related Documents:**
+  - [Diagram Validation Guide](diagram_validation_guide.md)
+  - [Diagram FAQ](diagram_faq.md)
+  - [Practical Mermaid Guide](practical_mermaid_guide.md)

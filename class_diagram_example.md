@@ -89,3 +89,11 @@ classDiagram
     
     note for AIAssistant "Processes natural language\nto generate diagram code"
 ```
+
+## Navigation
+
+- [🏠 Back to Main Page](README.md)
+- **Related Documents:**
+  - [Advanced Diagram Examples](advanced_diagram_examples.md)
+  - [System Architecture Example](system_architecture_example.md)
+  - [Practical Mermaid Guide](practical_mermaid_guide.md)

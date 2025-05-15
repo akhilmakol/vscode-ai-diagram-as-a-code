@@ -114,3 +114,11 @@ For each layer:
 - How lower layers expose functionality to higher layers
 Use subgraphs to visually separate the layers.
 ```
+
+## Navigation
+
+- [🏠 Back to Main Page](../README.md)
+- **Related Documents:**
+  - [Prompt Templates Home](README.md)
+  - [Class Diagram Example](../class_diagram_example.md)
+  - [System Architecture Example](../system_architecture_example.md)
