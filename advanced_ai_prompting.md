@@ -414,9 +414,7 @@ Use AI to "walk through" a diagram:
 ```plaintext
 Using this sequence diagram:
 
-```mermaid
 [diagram code]
-```
 
 Explain what happens when:
 1. A user enters invalid credentials
