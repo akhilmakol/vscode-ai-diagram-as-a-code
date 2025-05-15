@@ -2,6 +2,7 @@
 
 # 📊 Create Professional Diagrams Using VS Code and AI
 
+<img src="https://raw.githubusercontent.com/mermaid-js/mermaid/develop/img/header.png" alt="Diagram Example" width="650px"/>
 
 [![Mermaid](https://img.shields.io/badge/Mermaid-8A2BE2?style=for-the-badge&logo=mermaid&logoColor=white)](https://mermaid.js.org/)
 [![VS Code](https://img.shields.io/badge/VS_Code-007ACC?style=for-the-badge&logo=visual-studio-code&logoColor=white)](https://code.visualstudio.com/)
@@ -9,14 +10,26 @@
 [![Draw.io](https://img.shields.io/badge/Draw.io-F08705?style=for-the-badge&logo=diagramsdotnet&logoColor=white)](https://www.diagrams.net/)
 [![PlantUML](https://img.shields.io/badge/PlantUML-FBAE00?style=for-the-badge&logo=plantUML&logoColor=black)](https://plantuml.com/)
 
-</div>
-
-<p align="center">
+<p>
+<strong><i>Code → Diagram → Document</i></strong><br>
+<strong><i>Diagram  → Document →Code</i></strong><br>
 <i>Create beautiful diagrams, flowcharts, and visualizations using VS Code with AI-powered extensions</i>
 </p>
 
----
+</div>
 
+<div align="center">
+  <p>
+    <a href="#-core-content"><strong>Explore Guides »</strong></a> •
+    <a href="#-example-diagrams"><strong>See Examples</strong></a> •
+    <a href="#-getting-started"><strong>Quick Start</strong></a> •
+    <a href="#-diagram-automation-with-vs-code-1100"><strong>Automation</strong></a>
+  </p>
+</div>
+
+<hr style="height:2px;border-width:0;color:#DDDDDD;background-color:#DDDDDD">
+
+<div style="background-color: #f7f9fc; padding: 20px; border-radius: 8px; margin-bottom: 25px;">
 This comprehensive guide shows how developers, technical writers, and other professionals can create beautiful diagrams, flowcharts, and visualizations using VS Code with AI-powered extensions. By combining the power of text-based diagramming tools with AI assistance, you can:
 
 - **🚀 Create diagrams faster** by leveraging AI to generate initial code or improve existing diagrams
@@ -26,7 +39,6 @@ This comprehensive guide shows how developers, technical writers, and other prof
 - **📉 Reduce the learning curve** for complex diagramming syntax through AI guidance
 
 Whether you're documenting software architecture, visualizing business processes, or creating educational materials, this guide will help you leverage VS Code's powerful ecosystem along with AI tools to produce professional-quality graphics with minimal effort.
-
 
 ## 📚 Core Content
 
@@ -223,6 +235,8 @@ Install these essential extensions:
 
 ## ✨ Key Benefits of This Approach
 
+![Before and After](https://raw.githubusercontent.com/mermaid-js/mermaid/develop/img/header.png)
+
 | Benefit | Description | Impact |
 |---------|-------------|--------|
 | 🔄 **Version Control** | Diagram code can be tracked alongside source code | Improved history tracking and change management |
@@ -232,6 +246,24 @@ Install these essential extensions:
 | 🛠️ **Maintainability** | Update diagrams when systems change using the same tools | Diagrams that evolve with your codebase |
 | 🤖 **Automation** | Custom instructions and reusable prompts enable workflow automation | Reduced repetitive work through templating |
 | 📚 **Knowledge Sharing** | Templated approaches help teams maintain consistent standards | Better onboarding and knowledge transfer |
+
+> **🌟 With this approach, diagrams are no longer static assets but living documentation that evolves with your code.**
+
+## 🔄 Diagram Automation with VS Code 1.100+
+
+> **Transform your workflow:** VS Code 1.100+ introduces powerful new features for automating diagram creation and maintenance through Markdown-based instruction and prompt files.
+
+| Feature | Description | Benefit |
+|---------|-------------|---------|
+| 📄 **Instruction Files** | `.instructions.md` files with project context and guidelines | Consistent diagram styling and conventions across teams |
+| 📋 **Prompt Files** | `.prompt.md` files for reusable diagram creation tasks | Automate diagram workflows with standardized templates |
+| 🤖 **Pre-Commit Hooks** | Update diagrams automatically with code changes | Always-current visual documentation that evolves with code |
+| 🔄 **CI/CD Integration** | Generate diagrams during automated build processes | Reliable diagram creation and validation |
+| 📊 **Tool Integration** | Direct integration with Mermaid and other diagramming tools | Seamless creation and preview workflow |
+
+> 💡 **Pro tip:** Store team instruction files in `.vscode/instructions/` folder for automatic sharing with your team
+
+Learn more about these powerful automation capabilities in the [Workflow Integration](workflow_integration.md) guide and [Instruction & Prompt Files Guide](instruction_prompt_files_guide.md).
 
 ## 🔮 Next Steps and Advanced Topics
 
@@ -270,3 +302,17 @@ This project uses a consistent documentation structure to help you navigate betw
 | 🔄 **Draw.io** | [Draw.io Documentation](https://www.diagrams.net/doc/) | Official documentation for Draw.io diagramming |
 | 📝 **PlantUML** | [PlantUML Documentation](https://plantuml.com/) | Complete reference for PlantUML syntax and examples |
 | 🧩 **VS Code API** | [VS Code Extension API](https://code.visualstudio.com/api) | Documentation for building VS Code extensions |
+
+## 📜 License
+
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+
+```
+MIT License
+
+Copyright (c) 2025 VS Code AI Graphics Project Contributors
+
+Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the "Software"), to deal in the Software without restriction...
+```
+
+**Disclaimer:** The software is provided "as is", without warranty of any kind, express or implied, including but not limited to the warranties of merchantability, fitness for a particular purpose and noninfringement.
