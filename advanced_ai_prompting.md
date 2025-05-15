@@ -25,12 +25,14 @@ Understanding this process helps you craft prompts that work with these steps ra
 Instead of requesting a complex diagram all at once, break it down:
 
 **Less effective:**
-```
+
+```plaintext
 Create a complete system architecture diagram showing our microservices, databases, message queues, and user-facing components with all connections and data flows.
 ```
 
 **More effective:**
-```
+
+```plaintext
 Let's create a system architecture diagram step by step:
 1. First, show just the core microservices (user-service, product-service, order-service)
 2. Now add the databases each service connects to
@@ -43,12 +45,14 @@ Let's create a system architecture diagram step by step:
 Provide a clear structural framework for your diagram:
 
 **Less effective:**
-```
+
+```plaintext
 Create a flowchart about user registration.
 ```
 
 **More effective:**
-```
+
+```plaintext
 Create a flowchart for user registration with this structure:
 - Begin with a "Start" node
 - Show input validation steps
@@ -64,12 +68,14 @@ Create a flowchart for user registration with this structure:
 Show the AI a small example of what you want:
 
 **Less effective:**
-```
+
+```plaintext
 Create an entity relationship diagram for a blog system.
 ```
 
 **More effective:**
-```
+
+```plaintext
 Create an entity relationship diagram for a blog system. Here's a partial example of the syntax and style I want:
 
 ```mermaid
@@ -93,7 +99,7 @@ Please continue this diagram to include AUTHOR, CATEGORY, and TAG entities with 
 
 Use an iterative process:
 
-```
+```plaintext
 1. Initial request: "Create a basic sequence diagram for user authentication"
 2. Refinement: "Great, now add error paths for invalid credentials"
 3. Refinement: "Add a database component that stores user information"
@@ -104,7 +110,7 @@ Use an iterative process:
 
 Explicitly state constraints and requirements:
 
-```
+```plaintext
 Create a flowchart for order processing with these constraints:
 - Maximum 15 nodes for readability
 - Must include payment processing and inventory check steps
@@ -119,7 +125,7 @@ Create a flowchart for order processing with these constraints:
 
 Request different views of the same system:
 
-```
+```plaintext
 I need three diagrams of our ecommerce system:
 1. A context diagram showing the system and external entities
 2. A container diagram showing the major components
@@ -132,7 +138,7 @@ Let's start with the context diagram...
 
 Request annotations that explain the diagram:
 
-```
+```plaintext
 Generate a class diagram for a banking system, and include comments in the diagram code that explain:
 - Design pattern choices
 - Key relationships
@@ -143,7 +149,7 @@ Generate a class diagram for a banking system, and include comments in the diagr
 
 Ask for diagrams that compare alternatives:
 
-```
+```plaintext
 Create two sequence diagrams side by side:
 1. Authentication using a traditional username/password flow
 2. Authentication using OAuth2
@@ -155,7 +161,7 @@ Use the same actors and layout structure so the differences are clear.
 
 Start simple and progressively add detail:
 
-```
+```plaintext
 1. First request: "Create a basic component diagram of the web application"
 2. Add interfaces: "Now show the interfaces between components"
 3. Add protocols: "Add the communication protocols used"
@@ -166,7 +172,7 @@ Start simple and progressively add detail:
 
 Ask the AI to generate diagrams from existing code:
 
-```
+```plaintext
 Here's our authentication service code:
 
 ```typescript
@@ -180,7 +186,7 @@ Generate a sequence diagram showing how the authenticate() method interacts with
 
 ### Flowcharts
 
-```
+```plaintext
 When creating a flowchart:
 - Start with the main happy path first
 - Then add decision points one by one
@@ -192,7 +198,7 @@ When creating a flowchart:
 
 ### Sequence Diagrams
 
-```
+```plaintext
 When creating a sequence diagram:
 - List all participants at the beginning
 - Order participants from left to right by their first interaction
@@ -204,7 +210,7 @@ When creating a sequence diagram:
 
 ### Class Diagrams
 
-```
+```plaintext
 When creating a class diagram:
 - Focus on important attributes and methods, not exhaustive lists
 - Clearly indicate relationship types (inheritance, composition, etc.)
@@ -215,7 +221,7 @@ When creating a class diagram:
 
 ### Entity-Relationship Diagrams
 
-```
+```plaintext
 When creating an ER diagram:
 - Include only key attributes in entities
 - Clearly show cardinality constraints
@@ -228,7 +234,7 @@ When creating an ER diagram:
 
 ### When Diagrams Get Too Complex
 
-```
+```plaintext
 I notice this diagram is getting very complex. Let's simplify by:
 1. Focusing on just the core components
 2. Abstracting detailed logic into separate diagrams
@@ -238,7 +244,7 @@ I notice this diagram is getting very complex. Let's simplify by:
 
 ### When Syntax Is Incorrect
 
-```
+```plaintext
 The diagram has a syntax error. Let's fix it by:
 1. Checking each connection definition for proper format
 2. Ensuring all node IDs are valid
@@ -248,7 +254,7 @@ The diagram has a syntax error. Let's fix it by:
 
 ### When Layout Is Suboptimal
 
-```
+```plaintext
 The diagram layout could be improved. Please:
 1. Reduce crossing lines by reordering nodes
 2. Group related components closer together
@@ -260,7 +266,7 @@ The diagram layout could be improved. Please:
 
 ### Template Structure
 
-```
+```plaintext
 [Diagram Type] Request Template:
 
 Create a [type] diagram showing [subject] with these components:
@@ -280,7 +286,8 @@ Style preferences:
 ### Example Templates
 
 **Flowchart Template:**
-```
+
+```plaintext
 Create a flowchart diagram showing [process] with these components:
 - Starting point: [start]
 - Main process steps: [list steps]
@@ -299,7 +306,8 @@ Style preferences:
 ```
 
 **Sequence Diagram Template:**
-```
+
+```plaintext
 Create a sequence diagram showing [interaction] between these participants:
 - [Participant 1]
 - [Participant 2]
@@ -321,7 +329,8 @@ Follow these guidelines:
 Combine these prompting techniques with VS Code 1.100+ custom instructions:
 
 **Custom Instruction Example:**
-```
+
+```plaintext
 When I ask for diagrams, please follow these guidelines:
 1. Use Mermaid syntax by default unless I specify another format
 2. Apply a consistent visual style across diagram types
@@ -335,7 +344,7 @@ When I ask for diagrams, please follow these guidelines:
 
 ### Enhancement Requests
 
-```
+```plaintext
 Here's my current diagram:
 
 ```mermaid
@@ -352,7 +361,7 @@ Please improve it by:
 
 ### Diagram Analysis
 
-```
+```plaintext
 Please analyze this diagram:
 
 ```mermaid
@@ -373,7 +382,7 @@ Provide feedback on:
 
 Use AI-generated diagrams as a starting point for implementation:
 
-```
+```plaintext
 1. Generate a component diagram: "Create a component diagram for a URL shortening service"
 2. Get implementation code: "Generate skeleton code for the components in this diagram"
 3. Test strategy: "Create test cases for the interfaces in this diagram"
@@ -383,7 +392,7 @@ Use AI-generated diagrams as a starting point for implementation:
 
 Use diagrams as part of automated documentation:
 
-```
+```plaintext
 Based on this architecture diagram:
 
 ```mermaid
@@ -402,7 +411,7 @@ Generate a system overview document that:
 
 Use AI to "walk through" a diagram:
 
-```
+```plaintext
 Using this sequence diagram:
 
 ```mermaid
@@ -435,10 +444,6 @@ Mastering AI prompting techniques for diagram creation allows you to leverage VS
 Remember that the best results come from a collaborative process with the AI, where you provide clear guidance and iteratively refine the output until it meets your needs.
 
 ## Navigation
-
-- [🏠 Back to Main Page](README.md)
-- **Related Documents:**
-  ## Navigation
 
 - [🏠 Back to Main Page](README.md)
 - **Related Documents:**
