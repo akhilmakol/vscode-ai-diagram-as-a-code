@@ -10,19 +10,6 @@ This comprehensive guide shows how developers, technical writers, and other prof
 
 Whether you're documenting software architecture, visualizing business processes, or creating educational materials, this guide will help you leverage VS Code's powerful ecosystem along with AI tools to produce professional-quality graphics with minimal effort.
 
-**Key Technology Tags:** `VS Code` · `Mermaid` · `PlantUML` · `Draw.io` · `GitHub Copilot`
-
-## Table of Contents
-
-- [Core Content](#-core-content)
-- [Example Diagrams](#-example-diagrams)
-- [Reference Materials](#-reference-materials)
-- [Learning Path](#learning-path)
-- [Getting Started](#getting-started)
-- [Key Technologies Covered](#key-technologies-covered)
-- [Key Benefits](#key-benefits-of-this-approach)
-- [Advanced Topics](#next-steps-and-advanced-topics)
-- [References](#references)
 
 ## 📚 Core Content
 
