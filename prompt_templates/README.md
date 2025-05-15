@@ -19,6 +19,7 @@ This repository includes the following prompt template collections:
 - 🔄 [State Diagram Prompts](state_diagram_prompts.md)
 - 📅 [Gantt Chart Prompts](gantt_chart_prompts.md)
 - 🧠 [Mind Map Prompts](mind_map_prompts.md)
+- 🎨 [SVG Graphics Prompts](svg_graphics_prompts.md)
 - 📊 [Data Visualization Prompts](data_visualization_prompts.md)
 - 🔄 [Diagram Enhancement Prompts](diagram_enhancement_prompts.md)
 - ⚙️ [Custom Instructions Templates](custom_instructions_templates.md)

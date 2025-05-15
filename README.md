@@ -79,6 +79,11 @@ Whether you're documenting software architecture, visualizing business processes
     <td><span style="color:purple"><b>Intermediate/Advanced</b></span></td>
   </tr>
   <tr>
+    <td>🎨 <a href="professional_svg_graphics_guide.md"><b>Professional SVG Graphics</b></a></td>
+    <td>Creating professional-grade SVG graphics for presentations</td>
+    <td><span style="color:purple"><b>Intermediate/Advanced</b></span></td>
+  </tr>
+  <tr>
     <td>📋 <a href="prompt_templates/"><b>Prompt Templates</b></a></td>
     <td>Reusable prompt templates for diagram creation automation</td>
     <td><span style="color:green"><b>All users</b></span></td>
@@ -159,6 +164,7 @@ Whether you're documenting software architecture, visualizing business processes
 - 🧩 [Class Diagram Prompts](prompt_templates/class_diagram_prompts.md) - Reusable prompts for class diagrams
 - 🏗️ [Architecture Diagram Prompts](prompt_templates/architecture_diagram_prompts.md) - Reusable prompts for architecture diagrams
 - 🔥 [Diagram Automation Prompts](prompt_templates/automation_prompts.md) - Reusable prompts for automating diagram tasks
+- 🎨 [SVG Graphics Prompts](prompt_templates/svg_graphics_prompts.md) - Reusable prompts for professional SVG graphics
 
 ## 🎓 Learning Path
 
@@ -187,8 +193,9 @@ Whether you're documenting software architecture, visualizing business processes
 1. 🔥 Explore the **[Advanced Diagram Examples](advanced_diagram_examples.md)** for complex use cases
 2. 📊 Review the **[Case Study](case_study.md)** for implementation insights
 3. 🧩 Set up **[Custom Instructions](custom_instructions_guide.md)** for specialized diagram workflows
-4. 📋 Create your own **[Reusable Prompts](prompt_templates/)** for common diagram tasks
-5. 🌟 Contribute improvements and additional examples to this project
+4. 🎨 Create **[Professional SVG Graphics](professional_svg_graphics_guide.md)** for presentations
+5. 📋 Create your own **[Reusable Prompts](prompt_templates/)** for common diagram tasks
+6. 🌟 Contribute improvements and additional examples to this project
 </div>
 </div>
 
@@ -202,6 +209,7 @@ Whether you're documenting software architecture, visualizing business processes
 | 🔄 **Draw.io Integration** | Visual diagram editing within VS Code | Visual editing and complex custom diagrams |
 | 📄 **Markdown Preview Enhanced** | Advanced Markdown with additional diagram support | Documentation with embedded diagrams |
 | 🤖 **GitHub Copilot** | AI assistant for generating diagram code | Accelerating diagram creation and learning curve |
+| 🎨 **SVG Extensions** | SVG editing and preview capabilities | Professional-grade graphics for presentations |
 
 ## ✨ Key Benefits of This Approach
 
@@ -240,6 +248,7 @@ Learn more about these powerful automation capabilities in the [Workflow Integra
 | 🤖 **Automation** | Creating diagrams automatically from code or data | [Workflow Integration](workflow_integration.md) |
 | 🔄 **CI/CD Integration** | Generating and validating diagrams in CI/CD pipelines | [Workflow Integration](workflow_integration.md) |
 | 🎨 **Custom Styling** | Developing organization-specific diagram themes | [Diagram Best Practices](diagram_best_practices.md) |
+| 🖌️ **Professional Graphics** | Creating SVG graphics for presentations | [Professional SVG Graphics](professional_svg_graphics_guide.md) |
 | ♿ **Accessibility** | Ensuring diagrams are accessible to all users | [Diagram Validation Guide](diagram_validation_guide.md) |
 | 🧠 **Advanced AI Prompting** | Developing sophisticated prompts for complex diagrams | [Advanced AI Prompting](advanced_ai_prompting.md) |
 | 🧩 **Custom Instructions** | Creating specialized AI assistants for specific diagram types | [Custom Instructions Guide](custom_instructions_guide.md) |
