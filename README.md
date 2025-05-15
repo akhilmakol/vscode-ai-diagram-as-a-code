@@ -192,36 +192,6 @@ Whether you're documenting software architecture, visualizing business processes
 </div>
 </div>
 
-## 🚀 Getting Started
-
-<div style="padding: 15px; border-left: 4px solid #4CAF50; background-color: #f9f9f9; margin-bottom: 20px;">
-
-### Step 1: Installation
-
-⬇️ **Install Visual Studio Code** (version 1.100+ recommended for full AI features)
-
-### Step 2: Extension Setup
-
-Install these essential extensions:
-
-| Extension | Purpose |
-|-----------|---------|
-| 📊 **Mermaid Preview** | Live preview of Mermaid diagrams |
-| 🔄 **Draw.io Integration** | Visual diagram creation and editing |
-| 📝 **PlantUML** | UML diagram creation and visualization |
-| 📄 **Markdown Preview Enhanced** | Rich Markdown with embedded diagrams |
-| 🤖 **GitHub Copilot** | AI code assistance |
-| 💬 **GitHub Copilot Chat** | Interactive diagram guidance |
-
-### Step 3: Project Setup
-
-1. 📦 **Clone or download** this repository
-2. 📖 Open examples and follow the **[Implementation Guide](implementation_guide.md)**
-3. ⚙️ Configure your environment using the **[VS Code Setup Guide](vscode_setup_guide.md)**
-4. 🧩 Set up **[Custom Instructions](custom_instructions_guide.md)** for diagram workflows
-5. 📋 Import templates from the **[prompt_templates](prompt_templates/)** directory
-
-</div>
 
 ## 🔧 Key Technologies Covered
 
@@ -234,8 +204,6 @@ Install these essential extensions:
 | 🤖 **GitHub Copilot** | AI assistant for generating diagram code | Accelerating diagram creation and learning curve |
 
 ## ✨ Key Benefits of This Approach
-
-![Before and After](https://raw.githubusercontent.com/mermaid-js/mermaid/develop/img/header.png)
 
 | Benefit | Description | Impact |
 |---------|-------------|--------|
@@ -280,17 +248,36 @@ Learn more about these powerful automation capabilities in the [Workflow Integra
 | ⚙️ **Workflow Integration** | Embedding diagram automation into your development process | [Workflow Integration](workflow_integration.md) |
 | ⚡ **AI Workflow Automation** | Using reusable prompts to create diagram automation pipelines | [Workflow Example](workflow_example.md) |
 
-## 📋 Documentation Structure
+## 🚀 Getting Started
 
-This project uses a consistent documentation structure to help you navigate between related topics:
+<div style="padding: 15px; border-left: 4px solid #4CAF50; background-color: #f9f9f9; margin-bottom: 20px;">
 
-| Feature | Description | Benefit |
-|---------|-------------|---------|
-| 🧭 **Navigation Sections** | Each document includes a Navigation section at the bottom | Easily move between related documents |
-| 🏠 **Home Links** | Links to the main page (README.md) are available on every page | Quick return to this central hub |
-| 🔗 **Related Content** | Related documents are listed to help you discover connected content | Discover relevant resources as you need them |
-| 📈 **Learning Path** | The documentation follows a logical progression from basic to advanced | Build skills incrementally with proper scaffolding |
-| 🏷️ **Consistent Format** | Each document follows a similar structure and style | Predictable experience across all resources |
+### Step 1: Installation
+
+⬇️ **Install Visual Studio Code** (version 1.100+ recommended for full AI features)
+
+### Step 2: Extension Setup
+
+Install these essential extensions:
+
+| Extension | Purpose |
+|-----------|---------|
+| 📊 **Mermaid Preview** | Live preview of Mermaid diagrams |
+| 🔄 **Draw.io Integration** | Visual diagram creation and editing |
+| 📝 **PlantUML** | UML diagram creation and visualization |
+| 📄 **Markdown Preview Enhanced** | Rich Markdown with embedded diagrams |
+| 🤖 **GitHub Copilot** | AI code assistance |
+| 💬 **GitHub Copilot Chat** | Interactive diagram guidance |
+
+### Step 3: Project Setup
+
+1. 📦 **Clone or download** this repository
+2. 📖 Open examples and follow the **[Implementation Guide](implementation_guide.md)**
+3. ⚙️ Configure your environment using the **[VS Code Setup Guide](vscode_setup_guide.md)**
+4. 🧩 Set up **[Custom Instructions](custom_instructions_guide.md)** for diagram workflows
+5. 📋 Import templates from the **[prompt_templates](prompt_templates/)** directory
+
+</div>
 
 ## 📚 References
 
