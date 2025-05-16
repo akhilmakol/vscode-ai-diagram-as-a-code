@@ -1,0 +1,24 @@
+{
+  "registry": {
+    "name": "Enterprise Prompt Registry",
+    "version": "1.0.0",
+    "baseUrl": "https://prompt-registry.company.com",
+    "collections": {
+      "architecture": {
+        "path": "/prompts/architecture",
+        "version": "1.0.0",
+        "updateFrequency": "weekly"
+      },
+      "flowcharts": {
+        "path": "/prompts/flowcharts",
+        "version": "1.0.0",
+        "updateFrequency": "monthly"
+      }
+    },
+    "distribution": {
+      "method": "npm",
+      "package": "@company/prompt-templates",
+      "automatedUpdate": true
+    }
+  }
+}

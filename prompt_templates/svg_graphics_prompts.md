@@ -8,7 +8,7 @@ This file contains reusable prompts for generating professional-grade SVG graphi
 
 ## 🖼️ Basic SVG Icon
 
-```
+```text
 Create a clean, modern SVG icon for [describe purpose, e.g., "a download button"].
 Size it at 24x24 pixels with a viewBox of "0 0 24 24".
 Use these colors: [specify colors or use "my brand colors" if you have a set].
@@ -18,7 +18,7 @@ Make sure the code is optimized and uses proper SVG best practices.
 
 ## 🌠 Animated SVG Button
 
-```
+```text
 Generate an SVG button with subtle animation.
 Size: 200x60 pixels
 Text: "[button text]"
@@ -31,7 +31,7 @@ Ensure the button has rounded corners and a modern look.
 
 ## 📊 SVG Chart or Graph
 
-```
+```text
 Create an SVG [bar/line/pie/donut] chart visualizing the following data:
 [Data points in format: label, value]
 Width: 400px, Height: 300px
@@ -177,9 +177,35 @@ Ensure the design is cohesive with a gaming aesthetic.
 
 ## 🛠️ Using These Prompts
 
+### Option 1: With GitHub Copilot Chat
+
 1. Copy the prompt of your choice
 2. Open GitHub Copilot Chat in VS Code
 3. Paste the prompt and customize the placeholders in [brackets]
 4. Use the generated SVG in your project
 
+### Option 2: As Reusable Prompts in VS Code 1.100+
+
+1. Open VS Code 1.100+
+2. Go to Command Palette (Ctrl+Shift+P or Cmd+Shift+P)
+3. Select "Chat: Create New Reusable Prompt"
+4. Set a name for your prompt (e.g., "SVG Icon Generator")
+5. Paste the prompt template and save
+6. Access it anytime from the Chat panel's reusable prompts menu
+
+### Option 3: As a Prompt File
+
+1. Create a file with `.prompt.md` extension (e.g., `create_svg_icon.prompt.md`)
+2. Add the desired prompt template
+3. Configure the prompt file header with appropriate mode and tools
+4. Execute it directly from the file or integrate into your workflows
+
 For more detailed guidance on creating and working with SVG graphics, refer to our [Professional SVG Graphics Guide](../professional_svg_graphics_guide.md).
+
+For information on how to integrate these prompts with custom instructions and workflow automation, see the [Custom Instructions Guide](../custom_instructions_guide.md) and [Instruction & Prompt Files Guide](../instruction_prompt_files_guide.md).
+
+### 📋 Example Files
+
+To see practical implementations of these concepts:
+- [SVG Icon Generation Prompt File Example](examples/generate_svg_icon.prompt.md)
+- [SVG Graphics Custom Instructions Example](examples/svg_graphics.instructions.md)

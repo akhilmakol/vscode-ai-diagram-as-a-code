@@ -98,6 +98,11 @@ Whether you're documenting software architecture, visualizing business processes
     <td>Real-world implementation example</td>
     <td><span style="color:orange"><b>Decision makers</b></span></td>
   </tr>
+  <tr>
+    <td>🔄 <a href="prompt_template_lifecycle_guide.md"><b>Template Lifecycle Management</b></a></td>
+    <td>Enterprise-grade management of prompt templates and automation</td>
+    <td><span style="color:purple"><b>Intermediate/Advanced</b></span></td>
+  </tr>
 </table>
 
 ## 📈 Example Diagrams
@@ -149,6 +154,7 @@ Whether you're documenting software architecture, visualizing business processes
 - 🏢 [Industry Use Cases](industry_use_cases.md) - Industry-specific diagram use cases and templates
 - ⚙️ [Workflow Integration](workflow_integration.md) - Integrating diagram automation into development workflows
 - 🤖 [Advanced AI Prompting](advanced_ai_prompting.md) - Sophisticated techniques for AI diagram generation
+- 🔄 [Prompt Template Lifecycle](prompt_template_lifecycle_guide.md) - Enterprise-grade template management
 
 ### 🛠️ Practical Resources
 
@@ -195,7 +201,8 @@ Whether you're documenting software architecture, visualizing business processes
 3. 🧩 Set up **[Custom Instructions](custom_instructions_guide.md)** for specialized diagram workflows
 4. 🎨 Create **[Professional SVG Graphics](professional_svg_graphics_guide.md)** for presentations
 5. 📋 Create your own **[Reusable Prompts](prompt_templates/)** for common diagram tasks
-6. 🌟 Contribute improvements and additional examples to this project
+6. 🔄 Learn **[Template Lifecycle](prompt_template_lifecycle_guide.md)** for enterprise management
+7. 🌟 Contribute improvements and additional examples to this project
 </div>
 </div>
 

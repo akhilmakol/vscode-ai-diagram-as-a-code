@@ -1,0 +1,42 @@
+name: Prompt Template CI/CD
+
+on:
+  push:
+    paths:
+      - '**/*.prompt.md'
+      - '**/*.instructions.md'
+  schedule:
+    - cron: '0 0 * * MON'  # Weekly check on Monday
+
+jobs:
+  validate-and-publish:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v3
+      
+      - name: Setup Node.js
+        uses: actions/setup-node@v3
+        with:
+          node-version: '20'
+          registry-url: 'https://npm.pkg.github.com'
+      
+      - name: Validate Templates
+        run: |
+          npm install
+          node tools/validate-all-prompts.js
+      
+      - name: Check for Updates
+        id: check-updates
+        run: node tools/check-prompt-updates.js
+      
+      - name: Bump Version
+        if: steps.check-updates.outputs.hasUpdates == 'true'
+        run: |
+          npm version patch
+          git push --follow-tags
+      
+      - name: Publish Package
+        if: steps.check-updates.outputs.hasUpdates == 'true'
+        run: npm publish
+        env:
+          NODE_AUTH_TOKEN: ${{secrets.GITHUB_TOKEN}}

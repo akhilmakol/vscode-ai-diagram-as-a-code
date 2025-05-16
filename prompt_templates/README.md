@@ -8,19 +8,44 @@ This guide explains how to use the template prompts provided in this repository 
 
 ## 🗂️ Overview of Prompt Templates
 
-This repository includes the following prompt template collections:
+This repository includes the following prompt template collections organized by category:
+
+### 🔧 Structure & Architecture Diagrams
+
+- 🧊 [Block Diagram Prompts](block_diagram_prompts.md)
+- 🏗️ [Architecture Diagram Prompts](architecture_diagram_prompts.md)
+- 📋 [Class Diagram Prompts](class_diagram_prompts.md)
+- 📊 [Entity-Relationship Diagram Prompts](entity_relationship_prompts.md)
+
+### 🔄 Flow & Process Diagrams
 
 - 📊 [Flowchart Diagram Prompts](flowchart_prompts.md)
 - 🔄 [Sequence Diagram Prompts](sequence_diagram_prompts.md)
-- 📋 [Class Diagram Prompts](class_diagram_prompts.md)
-- 🏗️ [Architecture Diagram Prompts](architecture_diagram_prompts.md)
-- 🤖 [Diagram Automation Prompts](automation_prompts.md)
-- 📊 [Entity-Relationship Diagram Prompts](entity_relationship_prompts.md)
 - 🔄 [State Diagram Prompts](state_diagram_prompts.md)
+- 👤 [User Journey Prompts](user_journey_prompts.md)
+
+### 📊 Planning & Project Diagrams
+
 - 📅 [Gantt Chart Prompts](gantt_chart_prompts.md)
+- 📋 [Requirement Diagram Prompts](requirement_diagram_prompts.md)
+- ⏱️ [Timeline Prompts](timeline_prompts.md)
+- 🎯 [Quadrant Chart Prompts](quadrant_chart_prompts.md)
+
+### 📈 Data & Analytics Diagrams
+
+- 📊 [Data Visualization Prompts](data_visualization_prompts.md)
+- 🌊 [Sankey Diagram Prompts](sankey_diagram_prompts.md)
+- 📈 [XY Chart Prompts](xy_chart_prompts.md)
+- 🔍 [Packet Diagram Prompts](packet_diagram_prompts.md)
+
+### 🧠 Conceptual & Creative Diagrams
+
 - 🧠 [Mind Map Prompts](mind_map_prompts.md)
 - 🎨 [SVG Graphics Prompts](svg_graphics_prompts.md)
-- 📊 [Data Visualization Prompts](data_visualization_prompts.md)
+
+### ⚙️ Automation & Enhancement
+
+- 🤖 [Diagram Automation Prompts](automation_prompts.md)
 - 🔄 [Diagram Enhancement Prompts](diagram_enhancement_prompts.md)
 - ⚙️ [Custom Instructions Templates](custom_instructions_templates.md)
 
