@@ -222,7 +222,6 @@ instructions:
   - "diagrams.instructions.md"
 ---
 ```
-
 ## 🛠️ Integration with Workflows
 
 ### 🔄 Git Hooks
